@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=DataGeneratorMain
+comment0.text=\r\n\ Generate\ example\ data\ for\ use\ with\ a\ decision\ tree.\r\n\ The\ data\ is\ output\ in\ CSV\ format.\r\n\ NB\:\ The\ feature\ set\ should\ match\ that\ used\ with\ the\r\n\ \ \ \ \ the\ tree\ generator.\r\n\ @author\ David\ J.\ Barnes\r\n\ @version\ 2020.03.03\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=data
+comment2.target=void\ writeData(java.lang.String)
+comment2.text=\r\n\ Write\ the\ data\ string\ to\ file.\r\n\ @param\ data\ The\ data\ in\ the\ form\ of\ a\ string.\r\n
+numComments=3

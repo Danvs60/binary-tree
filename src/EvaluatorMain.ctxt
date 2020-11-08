@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=EvaluatorMain
+comment0.text=\r\n\ Starting\ point\ for\ the\ decision-tree\ evaluator.\r\n\ Filenames\ for\ the\ tree\ and\ data\ may\ be\ provided\r\n\ as\ command-line\ arguments.\ Both\ filenames\ must\r\n\ be\ provided\ if\ the\ defaults\ are\ to\ be\ changed.\r\n\r\n\ @author\ Daniel\ Bartolini\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=filename
+comment2.target=java.util.List\ readFile(java.lang.String)
+comment2.text=\r\n\ Read\ the\ contents\ of\ the\ given\ file.\r\n\ Return\ a\ list\ of\ the\ lines\ in\ the\ file.\r\n\ Newline\ characters\ are\ not\ included.\r\n\ @param\ filename\ The\ file\ to\ be\ read.\r\n\ @return\ A\ list\ of\ the\ lines\ in\ the\ file.\r\n\ @throws\ IOException\ if\ the\ file\ cannot\ be\ read.\r\n
+numComments=3

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Evaluator
+comment0.text=\r\n\ Evaluator\ class\ that\ takes\ calculates\ a\ the\ result\ of\ a\ binary\r\n\ decision\ tree,\ given\ the\ nodes\ and\ a\ data\ set\ to\ compare\ them\ with.\r\n\r\n\ @author\ Daniel\ Bartolini\r\n\ @version\ 1.0\r\n
+comment1.params=data\ nodes
+comment1.target=Evaluator(java.util.List,\ java.util.List)
+comment1.text=\r\n\ Constructor\ for\ the\ class\ Evaluator.\r\n\ Takes\ in\ the\ nodes\ and\ data\ lists\ and\ turns\ them\ into\ indexed\r\n\ data\ sets\ to\ easily\ process\ the\ CSV\ Strings.\r\n\ For\ each\ line\ in\ the\ data\ list,\ compares\ it\ with\ the\ nodes\ in\ \r\n\ the\ tree.\r\n\ \r\n\ @param\ data\ a\ list\ of\ Strings\ in\ CSV\ format.\r\n\ @param\ nodes\ a\ list\ of\ nodes\ in\ CSV\ format\ from\ a\ binary\ decision\ tree.\r\n
+comment2.params=
+comment2.target=int\ getSum()
+comment2.text=\r\n\ Get\ the\ calculated\ evaluation.\r\n\ \r\n\ @return\ integer\ number\ of\ evaluation.\r\n
+comment3.params=nodeNumber
+comment3.target=int\ evaluate(int)
+comment3.text=\r\n\ Recursive\ method\ that\ evaluates\ the\ binary\ decision\ tree.\r\n\ Base-case\:\ leaf\ node\ has\ been\ found,\ return\ its\ value.\r\n\ If\ evaluation\ is\ true\ evaluate\ left\ node,\ evaluate\ right\ node\r\n\ otherwise.\r\n\ \r\n\ @param\ nodeNumber\ the\ node\ to\ be\ evaluated.\r\n\ @return\ the\ value\ of\ a\ leaf\ node.\r\n
+comment4.params=inputList
+comment4.target=java.util.List\ toListOfList(java.util.List)
+comment4.text=\r\n\ Takes\ a\ list\ of\ String\ lines\ in\ CSV\ format\ and\ returns\ a\ \r\n\ an\ arraylist\ of\ lists\ that\ contain\ those\ previous\ lines,\r\n\ but\ indexed\ through\ the\ list\ class.\r\n\ \r\n\ @param\ inputList\ the\ list\ of\ String\ lines\ in\ CSV\ format.\r\n\ @return\ an\ arraylist\ of\ lists\ of\ lines.\r\n
+comment5.params=inputList
+comment5.target=java.util.HashMap\ toHashOfList(java.util.List)
+comment5.text=\r\n\ Takes\ a\ list\ of\ String\ lines\ in\ CSV\ format\ and\ returns\ a\ \r\n\ Map\ that\ contains\ the\ node's\ content,\ indexed\ by\ the\ node\ \r\n\ number.\r\n\ \r\n\ @param\ inputList\ the\ list\ of\ String\ lines\ in\ CSV\ format.\r\n\ @return\ HashMap\ of\ the\ nodes\ numbers\ as\ index\ and\ each\ node's\ content.\r\n
+numComments=6

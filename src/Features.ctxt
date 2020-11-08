@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=Features
+comment0.text=\r\n\ Features\ to\ be\ used\ in\ decision-tree\ examples.\r\n\ \r\n\ New\ sets\ of\ features\ may\ be\ added.\r\n\ NB\:\ There\ must\ be\ no\ duplication\ among\ the\ feature\ values\r\n\ \ \ \ \ in\ a\ single\ feature\ set.\r\n\ \r\n\ The\ required\ feature\ set\ is\ selected\ in\ TreeGeneratorMain\r\n\ and\ DataGeneratorMain.\r\n\ \r\n\ @author\ David\ J.\ Barnes\r\n\ @version\ 2020.03.03\r\n
+numComments=1

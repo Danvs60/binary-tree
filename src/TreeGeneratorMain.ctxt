@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=TreeGeneratorMain
+comment0.text=\r\n\ Generate\ a\ decision\ tree\ based\ on\ feature\ sets\ defined\ in\ the\ Features\ class.\r\n\ \r\n\ @author\ David\ J.\ Barnes\r\n\ @version\ 2020.03.03\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=nodes
+comment2.target=void\ writeTree(java.lang.String)
+comment2.text=\r\n\ Write\ the\ node\ string\ to\ file.\r\n\ @param\ nodes\ The\ nodes\ in\ the\ form\ of\ a\ string.\r\n
+numComments=3

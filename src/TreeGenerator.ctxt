@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TreeGenerator
+comment0.text=\r\n\ Generate\ a\ decision\ tree\r\n\ @author\ David\ J.\ Barnes\r\n\ @version\ 2020.03.03\r\n
+comment1.params=features
+comment1.target=TreeGenerator(java.lang.String[][])
+comment1.text=\r\n\ Create\ a\ generator\ for\ the\ given\ feature\ set.\r\n\ @param\ features\ Feature\ set\ for\ the\ decision\ tree.\r\n
+comment2.params=
+comment2.target=java.lang.String\ generate()
+comment2.text=\r\n\ Generate\ a\ decision\ tree.\r\n\ @return\ A\ string\ of\ nodes,\ one\ per\ line.\r\n
+comment3.params=featuresLeft\ nodeNumber
+comment3.target=void\ generateNode(java.util.List,\ int)
+comment3.text=\r\n\ Use\ the\ list\ of\ features\ left\ to\ generate\ the\ given\ node\ and\r\n\ its\ descendants.\r\n\ Generated\ nodes\ are\ added\ to\ the\ nodes\ list.\r\n\ @param\ featuresLeft\ Features\ available.\r\n\ @param\ nodeNumber\ The\ number\ of\ the\ node\ to\ be\ generated.\r\n
+numComments=4
